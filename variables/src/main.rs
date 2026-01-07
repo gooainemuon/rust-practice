@@ -21,5 +21,11 @@ fn main() {
     // data type - 뭐지 사이트에서는 안된다고 헀는데 된다.
     let _guess: u32 = "42".parse().expect("Not num");
     
-    // 스칼라타입: 단일값
+    // 부동 수소점
+    let my_f64 = 2.0;
+    let my_f32: f32 = 3.0; 
+    println!("my_f64 : {my_f64}");
+    println!("my_f32 : {my_f32}");
+
+
 }
