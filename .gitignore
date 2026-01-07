@@ -5,4 +5,11 @@ target/
 
 # 실행 파일을 빌드하는 경우 Cargo.lock을 gitignore에서 제거하고, 
 # 라이브러리인 경우 그대로 둡니다.
-# 자세한 정보는 다음 링크를 참조하세요:
+
+# OS별 파일
+.DS_Store # macOS
+
+# IDE 관련 파일 (예시)
+.idea/      # IntelliJ IDEA/CLion
+.vscode/    # VS Code (프로젝트 특정 설정이 아닌 사용자 설정인 경우)
+*.swp       # Vim 스왑 파일
